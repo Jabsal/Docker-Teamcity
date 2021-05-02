@@ -13,5 +13,5 @@ services:
     volumes:
       - ./data/agent:/data/teamcity_agent/conf
     environment:
-      SERVER URL: http://teamcity:5001
+      SERVER URL: http://teamcity:8111
 
